@@ -14,10 +14,14 @@
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "paths" : {
+      "@/*": ["./src/*"]
+    },
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "isolatedModules": false
   },
 
 }
